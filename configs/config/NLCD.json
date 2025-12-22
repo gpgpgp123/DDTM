@@ -1,0 +1,10 @@
+{
+  "classes":5,
+  "label":[
+    "Nodata",
+    "Built-up",
+    "Tree",
+    "low vegetation",
+    "Water"
+  ]
+}

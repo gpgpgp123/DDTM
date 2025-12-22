@@ -1,0 +1,28 @@
+{
+  "exp_dir": "saved_models/Chesapeake",
+  "model_type": "ddpm",
+  
+  "category": "Chesapeake",
+  "number_class": 17,
+  "ignore_label": 255,
+
+  "training_path": "dataset/Chesapeake_NewYork_dataset",
+  "validation_path": "dataset/Chesapeake_NewYork_dataset",
+  "testing_path": "dataset/Chesapeake_NewYork_dataset",
+  "model_path": "checkpoints/indian_pines_PCA25_10kp_40k_res2_mult122_t1000.pt",
+
+  "dim": [48, 48, 24320],
+  "steps": [500],
+  "blocks": [0, 1, 2, 3, 5],
+
+  "model_num": 5,
+  "batch_size": 224,
+  "max_training": 30,
+  
+  "upsample_mode":"bilinear",
+  "training_number": -1,
+  "testing_number": -1,
+
+  "share_noise": true,
+  "input_activations": false
+ }
