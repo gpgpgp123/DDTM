@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",  // 当前文件
+            "console": "integratedTerminal",
+            "cwd": "../configs"  // 设置工作目录
+        }
+    ]
+}
